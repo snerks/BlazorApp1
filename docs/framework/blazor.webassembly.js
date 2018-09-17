@@ -2317,7 +2317,7 @@
                     "Blazor is running in dev mode without IL stripping. To make the bundle size significantly smaller, publish the application or see https://go.microsoft.com/fwlink/?linkid=870414"
                   ),
                 (r = [t.main].concat(t.assemblyReferences).map(function(e) {
-                  return "framework/bin/" + e;
+                  return "framework/bin2/" + e;
                 })),
                 (o.label = 2);
             case 2:
